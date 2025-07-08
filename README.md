@@ -2,10 +2,10 @@
 
 一键脚本：
 
-curl -fsSL https://raw.githubusercontent.com/zhisibi/setup-nezha-agent/refs/heads/main/setup.sh  && chmod +x setup.sh && ./setup.sh
+wget -qO setup.sh https://raw.githubusercontent.com/zhisibi/setup-nezha-agent/refs/heads/main/setup.sh && bash setup.sh
 
 或者：
 
-wget -qO setup.sh https://raw.githubusercontent.com/zhisibi/setup-nezha-agent/refs/heads/main/setup.sh && ./setup.sh
+wget -qO setup.sh https://raw.githubusercontent.com/zhisibi/setup-nezha-agent/refs/heads/main/setup.sh && chmod +x setup.sh && ./setup.sh
 
 
